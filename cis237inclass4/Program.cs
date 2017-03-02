@@ -17,12 +17,18 @@ namespace cis237inclass4
             linkedList.AddMaintainSort(4);
             linkedList.AddMaintainSort(2);
             linkedList.AddMaintainSort(1);
-
             linkedList.Display();
 
             linkedList.RemoveMaintinaSort(3);
             linkedList.RemoveMaintinaSort(1);
+            linkedList.Display();
 
+            linkedList.AddToFront(100);
+            linkedList.AddToBack(100);
+            linkedList.Display();
+
+            linkedList.RemoveFromBack();
+            linkedList.RemoveFromFront();
             linkedList.Display();
         }
     }
